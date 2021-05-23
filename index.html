@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <title>Diseño Multimedia | Universidad del Caribe</title>
+    <title>Diseño Multimedia | Universidad del Caribe</title> 
 </head>
 
 <body>
@@ -56,7 +56,7 @@
         <section class="section-about">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
-                    DISEÑO MULTIMEDIA Y SUS FRONTERAS 
+                    ANIMACIONES EN CSS PURO
                     <br>
                     (PON EL MOUSE EN ESTE TÍTULO)
                 </h2>
@@ -64,19 +64,28 @@
 
             <div class="row">
                 <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-margin-bottom-small">Multimedia en HTML</h3>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">KEYFAMES PARA MOVIMIENTOS EN TITULO PRINCIPAL</h3>
                     <p class="paragraph">
-                        Las páginas web también pueden presentar desarrollos multimedia, con animaciones en HTML5, vídeos insertados, 
-                        por ejemplo desde YouTube, música de fondo y material para leer. En estos casos, puede hablarse de multimedia interactiva, 
-                        ya que es el usuario quien decide cómo será la presentación de la información y en qué momento iniciarla a través de sus clics.
+                        El uso de <a href="#" class="footer__link"> @-webkit-keyframes </a> perimte generar conjunto de fotogramas para definir el estilo
+                        que se aplicara en un momento de la animación. Para el movimiento hacia la izquierda se define <a href="#" class="footer__link"> moveInLeft </a> 
+                        y para el movimiento hacia la derecha se define <a href="#" class="footer__link"> moveInRight </a>. 
+                        <br>
+                        Con <a href="#" class="footer__link"> traslateX() </a> se define la dirección del objeto en eje x, es decir, izquiera a derecha. Cabe mencionar
+                        que para movimiento en eje y, arriba hacia abajo, se utiliza <a href="#" class="footer__link"> traslateY() </a>. Para generar el sentido inverso
+                        en ambas funciones, se define con pixeles negativos, por ejemplo:  <a href="#" class="footer__link"> traslateX(-100px) </a>. 
+                        Usando  <a href="#" class="footer__link"> translate(0) </a> generamos para coloar el objeto en la posición de origen.
+                        
                     </p>
 
-                    <h3 class="heading-tertiary u-margin-bottom-small">IMPORTANCIA DE LA MULTIMEDIA EN LA WEB</h3>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">EFECTO HOVER EN LAS IMÁGENES</h3>
                     <p class="paragraph">
-                        Los elementos multimedia, se utilizan principalmente para mejorar el contenido visual y ayudar a comprender mejor el mensaje
+                        Efecto hover <a href="#" class="footer__link"> :hover{} </a> con <a href="#" class="footer__link"> transform:scale() </a> permite genrar un efecto de tipo zoom en el objeto.
+                        Con <a href="#" class="footer__link"> z-index </a> para usar un objeto superpuesto en la jerarquía, es decir, superior a otros elementos.
                     </p>
 
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <a href="https://webdesign.tutsplus.com/es/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937" class="btn-text">Learn more &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
@@ -409,8 +418,7 @@
             <div class="popup__right">
                 <a href="#section-tours" class="popup__close">&times;</a>
                 <h2 class="heading-secondary u-margin-bottom-small">ANIMACIÓN DE TIPO MODAL</h2>
-                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
-                    homework</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; FUNCIONAMIENTO DE ANIMACIÓN DE TARJETAS</h3>
                 <p class="popup__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
